@@ -25,6 +25,25 @@ f2=F(x2);
 }while (f2<0);
 
 
+do{
+    x0=(x1+x2)/2;
+    f0=F(x0);
+    if(f0*f1<0){
+        x2=x0;
+        f2=f0;
+    }
+    else{
+        x1=x0;
+        f1=f0;
+    }
+
+
+}while (fabs(x2-x1)>E);
+
+
+printf("root is = %f",x0);
+
+
 
 
 }
