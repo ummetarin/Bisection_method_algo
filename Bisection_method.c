@@ -18,6 +18,12 @@ do{
     f1=F(x1);
 }while (f1>0);
 
+do{
+printf("X2 = ");
+scanf("%f",&x2);
+f2=F(x2);
+}while (f2<0);
+
 
 
 
