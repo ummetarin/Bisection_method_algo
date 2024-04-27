@@ -10,6 +10,14 @@ float F(float x){
 
 int main(){
 
+float f0,f1,f2,x0,x1,x2;
+
+do{
+    printf(" X1 = ");
+    scanf("%f",&x1);
+    f1=F(x1);
+}while (f1>0);
+
 
 
 
